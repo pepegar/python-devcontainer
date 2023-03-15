@@ -64,6 +64,8 @@ jobs:
           mv /tmp/$REPO_NAME/* .
           # And .gitignore too:
           mv /tmp/$REPO_NAME/.gitignore .
+          mv /tmp/$REPO_NAME/.devcontainer .
+          mv /tmp/$REPO_NAME/.vscode .
           # Delete the setup.yml workflow, it has served its purpose
           rm .github/workflows/setup.yml
           rm -rf "{{cookiecutter.hyphenated}}"
