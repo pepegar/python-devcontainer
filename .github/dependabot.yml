@@ -8,12 +8,10 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      # Check for updates to GitHub Actions every week
       interval: "daily"
 
   - package-ecosystem: "pip"
     directory: "/{{cookiecutter.hyphenated}}"
     schedule:
-      # Check for updates to GitHub Actions every week
       interval: "daily"
 

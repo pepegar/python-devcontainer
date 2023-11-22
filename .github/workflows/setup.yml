@@ -68,6 +68,7 @@ jobs:
           mv /tmp/$REPO_NAME/.vscode .
           # Delete the setup.yml workflow, it has served its purpose
           rm .github/workflows/setup.yml
+          rm cookiecutter.json
           rm -rf "{{cookiecutter.hyphenated}}"
 
       - name: Force push new repo contents
