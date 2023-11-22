@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 flask = "==2.3.2"
 requests = "==2.31.0"
-sqlalchemy = "==2.0.6"
-ipykernel = "==6.21.3"
+sqlalchemy = "==2.0.20"
+ipykernel = "==6.25.1"
 pandas = "==2.0.3"
 numpy = "==1.26.2"
 
